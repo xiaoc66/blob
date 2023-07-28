@@ -1,0 +1,74 @@
+.dynamic-tab-pane-control.tab-pane {
+	background: #fff;
+	padding: 15px;
+	float: left;
+	width: 100%;
+    overflow-x: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.dynamic-tab-pane-control.tab-pane .table-responsive-box{
+	padding: 0px;
+	box-shadow: none;
+	background: none;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.dynamic-tab-pane-control .tab-row {
+	z-index:1;
+	white-space:nowrap;
+	float: left;
+	width: 100%;
+}
+
+.dynamic-tab-pane-control .tab-row .tab{
+	float: left;
+	height: auto;
+}
+
+.dynamic-tab-pane-control .tab-row .tab a{
+	float:left;
+    position: relative;
+    display: block;
+    padding: 8px 15px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.53846154;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dynamic-tab-pane-control .tab-row .tab.selected a{
+    background-color: #0a67fb;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.dynamic-tab-pane-control .tab-row a:hover{
+    background-color: #0a67fb;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+.dynamic-tab-pane-control .tab-row .tab.selected a .tabcolor , .dynamic-tab-pane-control .tab-row a:hover .tabcolor{
+	color: #fff;
+}
+
+
+.dynamic-tab-pane-control .tab-page{
+	width: 100% !important;
+	margin-top: 10px;
+	float: left;
+}
+.dynamic-tab-pane-control .tab-page  table{
+	box-shadow:none !important;
+	padding: 0px;
+	width: 100%;
+}
+
+.tabcolor { font: 12px; color: #000000; }
